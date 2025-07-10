@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.5)
 find_package(PkgConfig)
 pkg_check_modules(LIBS REQUIRED gtk+-2.0)
 
